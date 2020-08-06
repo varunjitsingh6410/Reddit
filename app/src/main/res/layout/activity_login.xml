@@ -15,9 +15,10 @@
         tools:src="@mipmap/redditlogo_foreground"
         tools:srcCompat="@mipmap/redditlogo_foreground" />
 
-    <Button
-        android:id="@+id/btnLogin"
+    <Button android:id="@+id/signin"
+        android:text="Sign In With Reddit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:onClick="startSignIn"/>
+
 </LinearLayout>
